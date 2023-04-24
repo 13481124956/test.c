@@ -1,0 +1,23 @@
+#define _
+
+#include<stdio.h>
+
+typedef struct stu
+{
+  char name[20];
+  short age;
+  char tele[12];
+  char sex[5];
+}stu;
+
+  
+int main()
+{
+  stu s1 = {"钟振佳", 18, "13481124956", "男"};
+  printf("姓名为： %s\n", s1.name);
+  printf("年龄为： %d\n", s1.age);
+  printf("电话号： %s\n", s1.tele);
+  printf("性别为： %s\n", s1.sex);
+
+  return 0;
+}
