@@ -1,0 +1,42 @@
+#define _
+
+#include<stdio.h>
+
+
+
+
+void bubble_sort(int add[], int sz)
+{
+    //确定冒泡排序的趟数 每趟就是n，多趟就是n-1 ,所以就是元素个数减一,sz-1
+    int i = 0;
+    
+     for(i=0; i < sz-1; i++)
+     {
+            //每一趟冒泡排序
+         int j = 0;
+         for(j=0; j < sz-1-i; j++)
+         {
+             if(add[j] > add[j + 1])
+             {
+                 
+                     int tmp = add[j];
+                     add[j] = add[j + 1];
+                     add[j + 1] = tmp;
+             }
+         }
+     }
+}
+int main()
+{
+          int arr[] = {9,8,7,6,5,4,3,2,1,0};
+          //将arr进行排序，排成升序
+           int i = 0;
+           int sz = sizeof(arr)/sizeof(arr[0]);//10
+           //arr
+           bubble_sort(arr, sz);//冒泡排序函数
+       for(i=0; i<sz; i++)
+       {
+          printf("%d ", arr[i] );
+       }       
+           return 0;
+}
