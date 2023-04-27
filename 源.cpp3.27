@@ -1,0 +1,203 @@
+
+#define _CRT_SECURE_NO_WARNINGS
+
+#include<stdio.h>
+   // RED,
+    //YELLOW,
+    //BLUE,
+//
+
+//int Add(int x,int y)
+//{
+    //     int z = x+y;   
+  //       return z;
+//}
+
+
+//#define MAX(X,Y)  (X>Y?X:Y)
+//int Add(int x,int y)
+//{ 
+  //           int z = 0;
+      //          z = x+y;
+        //       return z;
+//}
+//void Swap1(int x,int y)
+//{
+  ///       int tmp = 0;
+     //    tmp = x;
+       //  x = y;
+         //y = tmp;
+
+
+
+
+
+//void Swap2(int* pa,int* pb)
+//{
+         // int tmp = 0;
+          //tmp = *pa;
+          //*pa = *pb;
+          //*pb = tmp;
+
+int is_leap_yeas(int y)
+{
+        if(y%4==0 && y%100!=0 || (y%400==0))
+              return 1;
+        else 
+        {
+              return 0;
+        }
+
+
+}
+int main()
+{
+        int yeas = 0;
+        for(yeas=1000;yeas<=2000;yeas++)
+        {
+              if(1 == is_leap_yeas(yeas))
+                {
+                          printf("%d ",yeas);
+                       
+                } 
+             return 0;
+        
+        }
+
+
+
+}
+           
+             // for(i = 1;i<100;i++)
+                
+              //     printf("%d\n",i);
+              
+               
+         ///return 0;
+
+
+
+
+          //    int num1 = 20;
+           //   int num2 = 30;
+            //  int max = 0;
+             // max = Add(num1,num2);
+             // printf("max = %d\n",max);
+         
+          
+          // int i = 1;
+        //for(i=1;i<=10;i++)
+        //{
+             // if(i == 5)
+               //continue;
+              //printf("%d\n",i);
+         //}   
+        // return 0;
+
+
+             // int ch = 0;
+           //while(ch = getchar() != EOF);
+           //{  
+             //      putchar(ch);
+            
+           
+           
+           //}
+       // int a = 1;
+       //while(a<=10)
+       //{   
+         
+      // printf("%d\n",a);
+        //a++;
+       //}
+    
+      
+
+
+
+ //int a = 1; 
+              //while(a<=100)
+              //{
+               
+                // a+=2;
+                  // printf("%d\n",a);
+              
+              //}
+            
+
+
+            // int a = 10;
+             //int* p= &a;
+             //printf("%p\n",p);
+          
+             //printf("%d\n",a);
+             //int num1 = 10;
+             //int num2 = 20;
+             // int max = MAX(num1,num2);
+             // printf("%d\n",max);
+               //  int a = (int)3.14;
+               //max = MAX(num1,num2);
+               //printf("%d\n",max);
+                 //return 0;
+
+             //   int arr[] = {1,2,3,4,5,6,7,8,9,10};
+                // printf("%d\n",sizeof(arr) / sizeof(arr[0]));
+
+               //  int num1 = 10;
+                 //int num2 = 20;
+                 //if(num1>num2)
+                 //printf("较大值 = %d\n",num1);
+                 //else
+                // printf("较大值 = %d\n",num2);
+
+             // int arr[20] = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20};
+              //int i = 0;
+              //while(i<20)
+             // {
+                     //printf("%d\n",arr[i]);
+                     ///i++;
+              
+              
+              
+             // }
+               
+                   //int num1 = 10;
+                   //int num2 = 20;
+                   //int sum = 0;
+                  // sum = (Add(num1,num2));
+          
+          //printf("相加的值为 = %d\n",sum);
+                   //printf("较大值 = %d\n",max);
+           // if(num1 > num2)
+
+
+
+       // printf("较大值是: %d\n",num1);
+            //else
+           // printf("较大值是: %d\n",num2);
+            
+                 //  int line = 0;
+                   //printf("加入比特\n");
+                   //while(line<2000)
+                   //{
+                     //       printf("敲一行代码%d\n",line);
+                       //        line++;
+                   //}
+                   //if(line>=2000)
+                   //printf("好offer\n");
+               
+
+
+     //char arr1[]= "abc";
+     //printf("%s",arr1);
+      //enum color a = RED;
+
+      //printf("%d\n",a);
+      //a = YELLOW;
+      //printf("%d\n",a);
+      //int arr{MAX};
+      //printf("%d\n",MAX);
+       //int num = 4;
+       //printf("%d\n",num);
+       //num = 8;
+     
