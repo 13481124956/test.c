@@ -1,0 +1,92 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+
+#include<stdio.h>
+
+
+//#define MAX 10
+//enum sex
+//{
+       //  MALE,
+         //FEMALE,
+         //SECRET
+
+//};
+
+
+//int main()
+//{
+
+  //   int a = 5%2;
+   //  printf("%d\n",a);
+         // int input = 0;
+           // printf("加入比特吗");
+            //printf("你要好好学习吗(1/0)>:");
+            //scanf("%d",&input);
+           //if(input ==1)
+           //printf("好offenr\n");
+           //else
+           //printf("卖红薯\n");
+        //char arr1[] = "abc";
+        //char arr2[] = {'a','b','c'};
+        
+      
+      
+      
+       // printf("%d\n",strlen("c:\test\32\test.c"));
+      //printf("%d\n",strlen(arr1));
+
+         //printf("%d\n",strlen(arr2));
+          // enum sex sea = MALE;
+
+           //sea = FEMALE; 
+          
+       // printf("%d\n",MALE);
+     // printf("%d\n",FEMALE);
+    // printf("%d\n",SECRET);
+
+ //int aa [MAX] = {0};
+  //  printf("%d\n",MAX);
+      // int num1 = 0;
+      // i//nt num2 = 0;
+       //int sum = 0;
+
+       //scanf("%d%d",&num1,&num2);
+   //sum = num1 + num2;
+     // printf("sum = %d\n",sum);
+      
+
+
+
+
+     // int num = 4;//const---常量不能变的量
+      //printf("%d\n",num);
+
+      //num = 8;
+      //printf("%d\n",num);
+
+
+
+
+       //int hehe = '100';
+      // printf("%d\n",hehe);
+      //char hh = 'B';
+     //printf("sb = %d\n",sb);
+//       return 0;
+//}
+//int main()
+//{
+//   int n = 9;
+//   float *pFloat = (float *)&n;
+//   printf("n的值为: %d\n", n);
+//   printf("*pfloat的值为: %f\n", *pFloat);
+
+//   *pFloat = 9.0;
+//   printf("num的值为: %d\n", n);
+//   printf("pFloat的值为: %f\n", *pFloat);
+ //  return 0;
+//}
+int main()
+{
+   float f = 5.5;
+   return 0;
+}
